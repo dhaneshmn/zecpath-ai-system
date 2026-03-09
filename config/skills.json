@@ -1,0 +1,12 @@
+{
+  "skills": [
+    "Python", "Java", "JavaScript", "React", "Node.js", "AWS", "Docker",
+    "Kubernetes", "SQL", "MongoDB", "Communication", "Leadership", "Project Management"
+  ],
+  "synonyms": {
+    "ReactJS": "React",
+    "Node": "Node.js",
+    "Amazon Web Services": "AWS",
+    "C++": "Cpp"
+  }
+}

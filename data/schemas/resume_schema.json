@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resume Schema",
+  "description": "Structured representation of a candidate's resume after parsing",
+  "type": "object",
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "description": "Unique identifier for the candidate"
+    },
+    "personal_info": {
+      "type": "object",
+      "properties": {
+        "full_name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" },
+        "linkedin_url": { "type": "string", "format": "uri" },
+        "portfolio_url": { "type": "string", "format": "uri" }
+      },
+      "required": ["full_name", "email"]
+    },
+    "summary": {
+      "type": "string",
+      "description": "Professional summary or objective statement"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "category": { 
+            "type": "string", 
+            "enum": ["technical", "soft", "language", "tool"] 
+          },
+          "proficiency": { 
+            "type": "string", 
+            "enum": ["beginner", "intermediate", "advanced", "expert"] 
+          }
+        },
+        "required": ["name"]
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "job_title": { "type": "string" },
+          "company": { "type": "string" },
+          "location": { "type": "string" },
+          "start_date": { "type": "string", "format": "date" },
+          "end_date": { 
+            "type": "string", 
+            "format": "date",
+            "description": "Use 'present' for current roles"
+          },
+          "is_current": { "type": "boolean" },
+          "description": { "type": "string" },
+          "achievements": { 
+            "type": "array", 
+            "items": { "type": "string" } 
+          },
+          "skills_used": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["job_title", "company", "start_date"]
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": { "type": "string" },
+          "field_of_study": { "type": "string" },
+          "institution": { "type": "string" },
+          "location": { "type": "string" },
+          "start_date": { "type": "string", "format": "date" },
+          "end_date": { "type": "string", "format": "date" },
+          "grade": { "type": "string" },
+          "activities": { "type": "string" }
+        },
+        "required": ["degree", "institution"]
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "issuing_organization": { "type": "string" },
+          "issue_date": { "type": "string", "format": "date" },
+          "expiration_date": { "type": "string", "format": "date" },
+          "credential_id": { "type": "string" },
+          "credential_url": { "type": "string", "format": "uri" }
+        },
+        "required": ["name"]
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "technologies": { 
+            "type": "array", 
+            "items": { "type": "string" } 
+          },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": { "type": "string" },
+          "proficiency": { 
+            "type": "string", 
+            "enum": ["native", "fluent", "professional", "basic"] 
+          }
+        },
+        "required": ["language"]
+      }
+    },
+    "raw_text": {
+      "type": "string",
+      "description": "Full extracted text from the resume (for backup)"
+    }
+  },
+  "required": ["candidate_id", "personal_info"]
+}

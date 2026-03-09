@@ -1,0 +1,7 @@
+{
+  "original_file": "data\\sample_resumes\\AI engineer.pdf",
+  "extracted_text_file": "data\\test_output\\AI engineer.txt",
+  "length": 6632,
+  "word_count": 865,
+  "status": "success"
+}

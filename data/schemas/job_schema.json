@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Job Description Schema",
+  "description": "Structured representation of a job posting",
+  "type": "object",
+  "properties": {
+    "job_id": { "type": "string" },
+    "company": { "type": "string" },
+    "title": { "type": "string" },
+    "location": { 
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": { "type": "string" },
+        "remote": { "type": "boolean" }
+      }
+    },
+    "employment_type": {
+      "type": "string",
+      "enum": ["full-time", "part-time", "contract", "internship"]
+    },
+    "experience_required": {
+      "type": "object",
+      "properties": {
+        "minimum_years": { "type": "number" },
+        "maximum_years": { "type": "number" },
+        "description": { "type": "string" }
+      }
+    },
+    "education_required": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": { "type": "string" },
+          "field": { "type": "string" },
+          "is_mandatory": { "type": "boolean" }
+        }
+      }
+    },
+    "skills_required": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "category": { 
+            "type": "string", 
+            "enum": ["technical", "soft", "language", "tool"] 
+          },
+          "importance": { 
+            "type": "string", 
+            "enum": ["must-have", "nice-to-have"] 
+          }
+        },
+        "required": ["name"]
+      }
+    },
+    "responsibilities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "benefits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "salary_range": {
+      "type": "object",
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "currency": { "type": "string", "default": "USD" },
+        "period": { "type": "string", "enum": ["hourly", "monthly", "yearly"] }
+      }
+    },
+    "posted_date": { "type": "string", "format": "date" },
+    "application_deadline": { "type": "string", "format": "date" },
+    "raw_text": { "type": "string" }
+  },
+  "required": ["job_id", "company", "title"]
+}

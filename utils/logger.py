@@ -1,16 +1,24 @@
 import logging
-import os
+import sys
+from pathlib import Path
 
-LOG_DIR = "logs"
+log_dir = Path("logs")
+log_dir.mkdir(exist_ok=True)
 
-if not os.path.exists(LOG_DIR):
-    os.makedirs(LOG_DIR)
+def setup_logger(name: str, log_file: str = "ai_activities.log", level=logging.INFO):
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    file_handler = logging.FileHandler(log_dir / log_file)
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
+    return logger
 
-logging.basicConfig(
-    filename=f"{LOG_DIR}/ai_system.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
-
-def get_logger(name):
-    return logging.getLogger(name)
+ai_logger = setup_logger("zecpath_ai-system")
+get_logger = setup_logger
