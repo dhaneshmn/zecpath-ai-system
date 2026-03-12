@@ -1,0 +1,73 @@
+{
+  "job_id": "Data Scientist",
+  "company": "Data Scientist (Technical)",
+  "title": "Data Scientist (Technical)",
+  "location": {
+    "city": null,
+    "state": null,
+    "country": null,
+    "remote": false
+  },
+  "employment_type": null,
+  "experience_required": {
+    "minimum_years": 3,
+    "maximum_years": 3,
+    "description": ""
+  },
+  "education_required": [
+    {
+      "degree": "Master's",
+      "field": "engineering",
+      "is_mandatory": true
+    },
+    {
+      "degree": "PhD",
+      "field": "engineering",
+      "is_mandatory": true
+    }
+  ],
+  "skills_required": [
+    {
+      "name": "azure",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "data science",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "python",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "aws",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "tensorflow",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "machine learning",
+      "importance": "must-have"
+    },
+    {
+      "name": "sql",
+      "importance": "nice-to-have"
+    }
+  ],
+  "responsibilities": [
+    "o 3+ years experience in data science",
+    "o Proficiency in Python, SQL, scikit-learn, TensorFlow",
+    "o Master's in Statistics/CS or equivalent",
+    "o Experience with cloud platforms (AWS/Azure)",
+    "- Nice to have: PhD, publications",
+    "- Salary: $120k–$150k"
+  ],
+  "benefits": [],
+  "salary_range": null,
+  "posted_date": null,
+  "application_deadline": null,
+  "raw_text": "                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n          Data Scientist (Technical)                                              \n            •  Title: Data Scientist – Machine Learning                           \n                                                                                  \n            •  Summary: Develop predictive models and analyze large datasets.     \n                                                                                  \n            •  Responsibilities: Feature engineering, model training, deployment, communicating insights.\n                                                                                  \n            •  Requirements:                                                      \n                 o  3+ years experience in data science                           \n                                                                                  \n                 o  Proficiency in Python, SQL, scikit-learn, TensorFlow          \n                                                                                  \n                 o  Master's in Statistics/CS or equivalent                       \n                                                                                  \n                 o  Experience with cloud platforms (AWS/Azure)                   \n            •  Nice to have: PhD, publications                                    \n                                                                                  \n            •  Salary: $120k–$150k                                                \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  ",
+  "cleaned_text": "Data Scientist (Technical) \n - Title: Data Scientist – Machine Learning \n \n - Summary: Develop predictive models and analyze large datasets. \n \n - Responsibilities: Feature engineering, model training, deployment, communicating insights.\n \n - Requirements: \n o 3+ years experience in data science \n \n o Proficiency in Python, SQL, scikit-learn, TensorFlow \n \n o Master's in Statistics/CS or equivalent \n \n o Experience with cloud platforms (AWS/Azure) \n - Nice to have: PhD, publications \n \n - Salary: $120k–$150k"
+}

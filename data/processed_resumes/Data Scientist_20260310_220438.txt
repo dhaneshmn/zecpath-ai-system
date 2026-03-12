@@ -1,0 +1,88 @@
+Bhavesh Wadhwani 
+
+ DATASCIENTIST · GOOGLECLOUDCERTIFIED · MICROSOFTCERTIFIED
+ (+91)899-911-6241 | bhaveshwadhwani14@gmail.com | bhaveshwadhwani.github.io | bhaveshwadhwani | bhaveshwadhwani
+
+ Summary 
+
+ Results-orientedDataScientistwith4.5+yearsofworkexperienceintheITindustry.ExperiencedinMachine-learning,DeepLearning,Com-
+ puterVision,NaturalLanguageProcessing(NLP),processingreal-timedata. RecentlyhaveverifiedmyDataScience/Engineeringskillstooby
+ passingtheMicrosoftAzureDataScientist/GCPProfessionalDataEngineerExam. HavingworkedonGCP,Azure,AWSCloudplatformsfor
+ variousdevelopmentanddeploymentprojectsenablesmetohaveabroadviewofthecurrentphaseoftechnologyintheindustry.
+
+ Work Experience 
+
+ NeosoftTechnologies Pune,India 
+ SENIORCONSULTANT-DATASCIENCE Dec.2020-Present
+ - ManaginginternationalClientsasDataScienceConsultantforE&YOneofBIG4Consultingfirms.
+ - Helpingtopamongstfortune100clientstomakebetterbusinessdecisionsbasedoninsightsfromtheirdatainsupplychaindomain.
+ - Optimizeprocurementprocessanddemandplanningcyclebyforecastingsalesacrossskusatvariouslevels/timeintervals
+ - Increasedoverallsalesby15%withaccuratelypredictingtheskussellingmoreinseasons/festivals
+ - Builtandmaintainedscalabletoolsforforecasting,demandplanningwithmanagingthewholedatasciencelifecycle
+ - Skills/ToolsusedinJob:Azureplatform,Databricks,AzureMLservices,Python,Git,JupyterNotebooks,Python,MachineLearning,DeepLearn-
+ ing,DataEngineering,Docker 
+ NihilentLtd. Pune,India 
+ DATASCIENTIST Nov.2019-Dec2020
+ - HelpingTopNBFC’s/BankingFinanceclientsinIndiatomakebetterbusinessdecisionsbasedoninsightsfromtheirdata
+ - Developedend-to-endmachinelearningprototypesandscaledthemtoruninproductionenvironments,increasedefficiencyby23%on
+ modelperformance 
+ - DesignedanoverallarchitectureandpipelinesoftheMachineLearning/DeepLearningbasedapplicationswiththemicro-servicesarchitec-
+ ture 
+ - Implementedsolutionsfromscratchfordatascience,workingonwholelifecycleofsolutions
+ - Deployedscalableproductionmodelsforinternetscaledata 
+ - Skills/ToolsusedinJob:GCPplatform,Git,Jupyter,Python,MachineLearning,GoogleBigquery,DeepLearning,Docker,DataEngineering
+ Infosys Pune,India 
+ DATASCIENTIST Dec.2017-Jun.2019
+ - WorkingwithONGCClient(Top10-Fortune500)toreducecostandimproveefficiencyforserversusingdatascience
+ - CertifiedfromInfosysforPython,SQL,MachineLearning,DeepLearning 
+ - AspartofInfosysNIAOPS-Analyticsteamwetargettoimproveperformanceandcreatehighbusinessvalueandwesuccessfullyreduced
+ manualworkto60%byatomizingsolutions 
+ - CleanedandAnalyzedtextdatausingPython,NLPtechniques,MLAlgorithms 
+ - Improvedperformanceofserversby8%andreducecriticalalertsby10%byusingpreviouseventalertlogdatausingMachineLearning
+ EventbeepEntertainmentLLP Pune,India 
+ SOFTWAREENGINEER-WEBDEVELOPERINTERN June.2017-Dec.2017
+ - Wokedonaproduct”Ticketingplatformforcollegeanduniversityevents” 
+ - FullstackdeveloperusingtechnologieslikePhp,codeignitorframework,javascript,html,css,bootstrap.
+ - Responsiblefordevelopingnewfeaturesonwebsitewithleadingateamof5interns. 
+ - FewkeyfeaturesinwhichIhadcontributedintheproductwereIntegratingpaymentgatewaystowebsite,SMSandEmail-integrationfor
+ ticketingplatform,builtdynamicdisplayforeventswithminimallatency. 
+
+ OCTOBER21,2021 BHAVESHWADHWANI · RESUME 1 
+
+ Skills 
+
+ Programming: Python 
+ Database: MS-SQL,MySQL,SQLite,MongoDB,BigQuery 
+ ScientificComputingFrameworks: Numpy,SciPy,Pandas,Dask,GeoPandas 
+ MLToolbox: Sklearn,NLTK,OpenCV,Keras,Tensorflow,AzureML,Pytorch,AzureMLStudio
+ DeploymentToolbox: AzureML,GCPAIPlatform,AWSSagemaker,Docker,Kubeflow,Flask
+ DataVisualizationTools: Plotly,Matplotlib,Seaborn 
+ CloudPlatforms: GoogleCloudPlatform(GCP),Azure,AWS,GoogleColab,Heroku
+ ProjectDev.Tools: JupyterNotebook,Github,VSCodeIDE,MachineLearningAlgorithms,DeepLearningTechinques
+
+ Certifications 
+
+ 2021 MicrosoftCertified,AzureDataEngineer[SeetheCertificate] Microsoft,India
+ 2021 MicrosoftCertified,AzureDataScientist[SeetheCertificate] Microsoft,India
+ 2021 MicrosoftCertified,AzureAIEngineer[SeetheCertificate] Microsoft,India
+ 2021 MicrosoftCertified,AzureAIFundamentals[SeetheCertificate] Microsoft,India
+ 2020 GoogleCertified,GoogleCloud-ProfessionalDataEngineer[SeetheCertificate] GoogleCloud,India
+ 2020 Certification,AppliedMachineLearning&DeepLearningCourse[SeetheCertificate] AAIC,India
+ 2020 Certification,ComputerVisionNanodegree[SeetheCertificate] UDACITY,U.S.A
+ 2020 Certification,DeepLearningNanodegree[SeetheCertificate] UDACITY,U.S.A
+ 2020 Certification,TensorflowinPracticeSpecialization[SeetheCertificate] Coursera,U.S.A
+ 2020 Certification,DeepLearningSpecialization[SeetheCertificate] Coursera,U.S.A
+
+ Writing 
+
+ ImageCaptioninginPythonwithKeras[Visitblogpage] MediumBlogPage 
+ TECHNICALBLOGWRITER Sep.2019 
+ - ENDTOENDapproachforImageCaptioning,startingrightfromdatacollectionuptomodelbuildingandmakingpredictionsonmodel.
+
+ Education 
+ MaharashtraInstituteofTechnology(UniversityofPune) Pune,India 
+
+ B.E.ININFORMATIONTECHNOLOGY June.2013-June.2017
+ - MachineLearning,DeepLearning,IoT,CloudComputing,SoftwareEngineering,DataStructuresandAlgorithms,WebTechnologies.
+
+ OCTOBER21,2021 BHAVESHWADHWANI · RESUME 2

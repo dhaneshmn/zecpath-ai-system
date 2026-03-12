@@ -1,0 +1,76 @@
+{
+  "job_id": "Mern Stack developer",
+  "company": "JD 1: MERN Stack Developer (Technical)",
+  "title": "JD 1: MERN Stack Developer (Technical)",
+  "location": {
+    "city": ":",
+    "state": "Re",
+    "country": null,
+    "remote": true
+  },
+  "employment_type": "part-time",
+  "experience_required": {
+    "minimum_years": 2,
+    "maximum_years": 2,
+    "description": ""
+  },
+  "education_required": [
+    {
+      "degree": "Bachelor's",
+      "field": "computer science",
+      "is_mandatory": true
+    }
+  ],
+  "skills_required": [
+    {
+      "name": "mongodb",
+      "importance": "must-have"
+    },
+    {
+      "name": "java",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "aws",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "typescript",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "express",
+      "importance": "must-have"
+    },
+    {
+      "name": "javascript",
+      "importance": "nice-to-have"
+    },
+    {
+      "name": "node.js",
+      "importance": "must-have"
+    },
+    {
+      "name": "react",
+      "importance": "must-have"
+    },
+    {
+      "name": "git",
+      "importance": "nice-to-have"
+    }
+  ],
+  "responsibilities": [
+    "o 2+ years experience with MERN stack",
+    "o Proficiency in JavaScript/TypeScript, Redux",
+    "o Experience with Git, Agile methodologies",
+    "o Bachelor's in Computer Science or equivalent",
+    "- Nice to have: AWS knowledge, GraphQL experience",
+    "- Salary Range: $70k–$90k"
+  ],
+  "benefits": [],
+  "salary_range": null,
+  "posted_date": null,
+  "application_deadline": null,
+  "raw_text": "                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n          JD 1: MERN Stack Developer (Technical)                                  \n            •  Title: MERN Stack Developer                                        \n                                                                                  \n            •  Summary: Build and maintain web applications using MongoDB, Express.js, React, Node.js.\n                                                                                  \n            •  Responsibilities: Develop frontend components, design REST APIs, optimize performance.\n                                                                                  \n            •  Requirements:                                                      \n                 o  2+ years experience with MERN stack                           \n                                                                                  \n                 o  Proficiency in JavaScript/TypeScript, Redux                   \n                                                                                  \n                 o  Experience with Git, Agile methodologies                      \n                                                                                  \n                 o  Bachelor's in Computer Science or equivalent                  \n            •  Nice to have: AWS knowledge, GraphQL experience                    \n                                                                                  \n            •  Location: Remote                                                   \n                                                                                  \n            •  Salary Range: $70k–$90k                                            \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  ",
+  "cleaned_text": "JD 1: MERN Stack Developer (Technical) \n - Title: MERN Stack Developer \n \n - Summary: Build and maintain web applications using MongoDB, Express.js, React, Node.js.\n \n - Responsibilities: Develop frontend components, design REST APIs, optimize performance.\n \n - Requirements: \n o 2+ years experience with MERN stack \n \n o Proficiency in JavaScript/TypeScript, Redux \n \n o Experience with Git, Agile methodologies \n \n o Bachelor's in Computer Science or equivalent \n - Nice to have: AWS knowledge, GraphQL experience \n \n - Location: Remote \n \n - Salary Range: $70k–$90k"
+}

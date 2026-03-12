@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from parsers.resume_parser import ResumeParser
+from parsers.extraction_pipeline import extract_raw_text
 from parsers.text_cleaner import TextCleaner
 
 SAMPLE_RESUME_DIR = "data/raw_resumes"
@@ -18,7 +18,7 @@ def test_extraction(filename):
         pytest.skip(f"Unsupported file type: {filename}")
     
     file_path = os.path.join(SAMPLE_RESUME_DIR, filename)
-    text = ResumeParser.extract_text(file_path)
+    text = extract_raw_text(file_path)
     assert text is not None, f"Extraction failed for {filename}"
     assert len(text.strip()) > 50, f"Extracted text too short for {filename}"
 
@@ -30,5 +30,5 @@ def test_cleaning():
     assert "  " not in clean
     # Check that bullet is normalized
     assert "•" not in clean
-    # Check capitalization
+    # Check capitalization (depending on cleaner settings)
     assert clean.startswith("This")
